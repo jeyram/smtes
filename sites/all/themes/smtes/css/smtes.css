@@ -1,0 +1,200 @@
+/*********************************************************************************************
+CSS SMTES  Principales hoja de estilos personalizada. 
+Author: Jorge Ram. 
+Drupal Zen Subtheme.
+**********************************************************************************************/
+
+
+body {
+  padding:0;
+  margin:0;
+  text-align:justify;
+}
+
+#search .searchBox input{
+  border: 1px #999999 solid;
+  height:24px;
+  width:128px;
+}
+
+#page-wrapper-admin{
+  background-color:#FFFFFF;
+}
+  
+#content .section {
+  font-family: "Calibri", Verdana, Arial, Helvetica, sans-serif ;
+  font-size:15px;
+  font-style: normal;	
+  line-height: 18px;
+  font-weight: normal;	
+  font-variant: normal;	
+  text-transform: none;
+}
+
+#content .section a,
+#content .section a:visited{
+ text-decoration:none;
+}
+
+#content .section a:hover{
+ color:#FF9900;
+}
+
+.breadcrumb /* The path to the current page in the form of a list of links */ {
+  font-family: "Calibri", Verdana, Arial, Helvetica, sans-serif ;
+  font-size:14px;
+  font-style: normal;	
+  font-weight: normal;
+  cursor:default;	 
+  color: #003366;
+  text-decoration:none;
+ /* Undo system.css */
+}
+
+.breadcrumb a, .breadcrumb a:visited{
+  color:#999999;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.breadcrumb a:hover /* The path to the current page in the form of a list of links */ {
+  color: #003366;
+  text-decoration:underline;
+}  
+
+#block-contact_form_blocks-2{
+  background-color: #E5ECEF;
+  margin: 12px 0;
+  padding: 11px 12px;
+  width: 155px;
+}
+
+.region-sidebar-second {
+   /* background-color:#FFFFFF;*/
+    margin-left: 754px;
+}
+
+.region-sidebar-second .section {
+  margin: 0 0 0 12px; /* LTR */
+  padding: 0;
+}
+
+#table_view_list{
+  border:#CCCCCC 1px solid;
+}
+
+.ftd{
+  font-family: "Calibri", Verdana, Arial, Helvetica, sans-serif ;
+  font-size:15px;
+  font-style: normal;	
+  line-height: 18px;
+  font-weight: normal;	
+  font-variant: normal;	
+  text-transform: none; 
+}
+
+#table_view_list p, #table_view_list img{
+  padding:5px;
+  margin:0;
+}
+
+#block-menu-secondary-links{
+  float:right;
+  margin-right: 16em;
+  margin-top:-5.3em;
+  font-size:12pt;
+  font-family:"Calibri", Arial, san-serif;
+}
+
+#block-menu-secondary-links ul li a,
+#block-menu-secondary-links ul li a:visited{
+   color:#006699;
+   text-decoration:none;
+}
+
+#block-menu-secondary-links ul li a:hover{
+   color:#FF9900;
+   text-decoration:none;
+}
+
+#block-menu-secondary-links ul li{
+  display:inline;
+  padding:0 .5em;
+  border-right:#0066CC 1px solid; 
+}
+
+#contact-mail-page2{
+  display: block;
+  font-family: Arial;
+  font-size: 94%;
+  font-weight:500;
+  line-height: 1.053;
+}
+
+.info{
+  font-family: "Calibri", Verdana, Arial, Helvetica, sans-serif ;
+  font-size:15px;
+  font-style: normal;	
+  line-height: 18px;
+  font-weight: normal;	
+  font-variant: normal;	
+  text-transform: none;
+}
+
+#block-nice_menus-1{
+  margin-left: 24em;
+  margin-top: -13px;
+
+}
+
+#nice-menu-1{
+  font-family: "Calibri", Verdana, Arial, Helvetica, sans-serif ;
+  font-size:0.975em;
+  font-style: normal;	
+  line-height: 18px;
+  font-weight:500;	
+  font-variant:small-caps;	
+  text-transform: none;
+}
+
+#nice-menu-1 li{
+  border-right:#CCCCCC solid 1px;
+}  
+
+#nice-menu-1 li ul li{
+  border:0 none;
+}	
+
+.bread_share{
+  padding:1px 0 2pbx; 
+  display:inline;
+}
+
+.share_btn{
+  float: right;
+  margin-right: 12px;
+  margin-top: -27px;
+}	
+
+li a.active {
+  color:#006699;
+}
+
+.item-list .pager li{
+  color:#FF6600;
+} 
+
+#contact-mail-page2 #edit-name,#contact-mail-page2 #edit-field-sname,
+#contact-mail-page2 #edit-mail,#contact-mail-page2 #edit-field-phone,
+#contact-mail-page2 #edit-field-empresa,#contact-mail-page2 #edit-message{
+ width:145px;
+}
+
+#contact-mail-page2 #edit-message{
+  font-size:14px;
+}  
+
+#nice-menu-1 li.menu-506,
+#block-menu-secondary-links .menu li.last {
+  border-right: 0;
+}
