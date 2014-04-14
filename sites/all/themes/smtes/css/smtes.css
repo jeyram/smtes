@@ -198,3 +198,8 @@ li a.active {
 #block-menu-secondary-links .menu li.last {
   border-right: 0;
 }
+
+body.logged-in {
+  background-position: left 12px;
+  margin-top: 12px;
+}
