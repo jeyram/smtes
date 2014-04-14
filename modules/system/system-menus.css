@@ -1,4 +1,3 @@
-/* $Id: system-menus.css,v 1.1 2007/10/05 14:50:25 goba Exp $ */
 
 ul.menu {
   list-style: none;
@@ -27,7 +26,7 @@ li.leaf {
   margin: 0;
 }
 li a.active {
-/*  color: #000;*/
+  color: #000;
 }
 td.menu-disabled {
   background: #ccc;

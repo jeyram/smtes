@@ -1,5 +1,4 @@
 <?php
-// $Id: contact.pages.inc,v 1.6.2.2 2009/04/27 14:48:21 goba Exp $
 
 /**
  * @file
@@ -54,7 +53,7 @@ function contact_mail_page() {
     $form['subject'] = array('#type' => 'textfield',
       '#title' => t('Subject'),
       '#maxlength' => 255,
-      '#required' => FALSE,
+      '#required' => TRUE,
     );
     if (count($categories) > 1) {
       // If there is more than one category available and no default category has been selected,
