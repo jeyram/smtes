@@ -96,10 +96,10 @@
 
         <?php print $content_top; ?>
 
-        <div id="content-area">
+<?php /*?>    <div id="content-area">
           <?php print $content; ?>
         </div>
-
+<?php */?>
         <?php print $content_bottom; ?>
 
         <?php if ($feed_icons): ?>
